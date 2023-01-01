@@ -326,6 +326,10 @@ img {
     font-weight: 300;
 }
 
+.hidden {
+    display: none;
+}
+
 @media only screen and (min-width: 786px) {
 
     .hamburger {
