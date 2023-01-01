@@ -24,6 +24,14 @@ img {
     background-size: 100%;
 }
 
+.hamburger {
+    margin-left: 15px;
+}
+
+.headding {
+    display: none;
+}
+
 .home-page {
     padding-top: 20px;
     padding-bottom: 60px;
@@ -96,16 +104,22 @@ img {
     list-style-type: none;
 }
 
+.main-program li:hover {
+    border: 3px solid var(--white);
+    cursor: pointer;
+}
+
 .main-program i {
     color: var(--white); 
     font-size: 40px;
-    width: 60px;
+    width: 40px;
 }
 
 .main-program h3 {
     color: var(--primary);
-    width: 80px;
-    font-size: medium;
+    width: 100px;
+    font-size: 18px;
+    font-weight: 700;
 }
 
 .main-program p {
@@ -123,6 +137,10 @@ img {
     padding: 22px;
     margin-top: 30px;
     margin-bottom: 30px;
+}
+
+.see-program {
+    display: none;
 }
 
 .speakers {
@@ -155,8 +173,8 @@ img {
 }
 
 .speaker-image {
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
 }
 
 .speaker-bg {
@@ -175,7 +193,7 @@ img {
 }
 
 .speaker-info {
-    width: calc(100% - 100px);
+    width: calc(100% - 120px);
 }
 
 .speaker-info h3 {
@@ -193,8 +211,9 @@ img {
 
 .speaker-info div {
     background-color: var(--background);
-    width: 15px;
+    width: 22px;
     height: 1px;
+    margin-bottom: 9px;
 }
 
 .speaker-info p {
@@ -305,4 +324,157 @@ img {
     color: var(--primary);
     font-size: 34px;
     font-weight: 300;
+}
+
+@media only screen and (min-width: 786px) {
+
+    .hamburger {
+        display: none;
+    }
+
+    .headding {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact {
+        display: flex;
+        background-color: var(--grey);
+        width: 100%;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 30px;
+        padding: 3px 15% 3px 3px;
+    }
+
+    .contact div {
+        font-weight: 300;
+        font-size: 12px;
+    }
+
+    .logo {
+        padding: 23px 13% 23px 9%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: var(--white);
+    }
+
+    .logo > div {
+        display: flex;
+        gap: 3px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .logo > div i {
+        font-size: 28px;
+    }
+
+    .logo > div h2 {
+        font-family: 'Lato', sans-serif;
+        font-weight: 700;
+        font-size: 20px;
+        margin: 0;
+    }
+
+    .logo-menu {
+        display: flex;
+        gap: 40px;
+        align-items: center;
+        margin: 0;
+    }
+
+    .logo-menu li {
+        list-style-type: none;
+    }
+
+    .logo-menu li:hover {
+        color: var(--primary);
+        cursor: pointer;
+    }
+
+    .logo-menu li:active {
+        border: 3px solid var(--primary);
+        padding: 5px;
+    }
+
+    .home-page {
+        padding-top: 4%;
+        padding-bottom: 9%;
+    }
+
+    .home-page p {
+        width: 60%;
+    }
+
+    .home-p {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .main-program > ul {
+        display: grid;
+        grid-template-columns: auto auto auto auto auto;
+        gap: 8px;
+        padding-left: 13%;
+        padding-right: 13%;
+    }
+
+    .main-program li {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .main-program i {
+        color: var(--white); 
+        font-size: 40px;
+        width: auto;
+    }
+    
+    .main-program h3 {
+        color: var(--primary);
+        width: auto;
+        font-size: medium;
+    }
+    
+    .main-program p {
+        width: auto;
+        font-size: small;
+    }
+
+    .main-program button {
+        display: none;
+    }
+
+    .see-program {
+        display: block;
+        margin: 4.5%;
+        font-size: 15px;
+    }
+
+    .speakers > ul {
+        display: grid;
+        grid-template-columns: auto auto;
+        margin-left: calc(29.3% / 2);
+        margin-right: calc(29.3% / 2);
+        margin-bottom: 6%;
+        row-gap: 43px;
+        column-gap: 27px;
+    }
+
+    .speakers li {
+        gap: 14px;
+    }
+
+    .partners > ul {
+        flex-direction: row;
+        gap: 65px;
+    }
+
+    .footer {
+        padding: 40px;
+        gap: 12%;
+    }
 }
