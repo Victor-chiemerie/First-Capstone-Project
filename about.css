@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
+:root {
+    --background: #d3d3d3;
+    --primary: #ec5242;
+    --black: #272a31;
+    --white: white;
+    --grey: rgb(73, 72, 72);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+@media only screen and (min-width: 786px) {
+
+    .logo div h2 {
+        color: var(--black);
+    }
+}
+

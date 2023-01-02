@@ -364,18 +364,18 @@ img {
         background-color: var(--white);
     }
 
-    .logo > div {
+    .logo div {
         display: flex;
         gap: 3px;
         align-items: center;
         justify-content: center;
     }
 
-    .logo > div i {
+    .logo div i {
         font-size: 28px;
     }
 
-    .logo > div h2 {
+    .logo div h2 {
         font-family: 'Lato', sans-serif;
         font-weight: 700;
         font-size: 20px;
@@ -391,6 +391,7 @@ img {
 
     .logo-menu li {
         list-style-type: none;
+        color: var(--black);
     }
 
     .logo-menu li:hover {
