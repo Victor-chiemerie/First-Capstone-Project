@@ -12,12 +12,13 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="Style.css">
     <link rel="stylesheet" href="about.css">
+    <script src="main.js" defer></script>
 </head>
 <body>
     <div class="first-page">
         <!-- headder -->
         <header class="headder">
-            <a id="hamburger" class="hamburger">
+            <a id="hamburger" class="hamburger text-dark">
                 <i class="glyphicon glyphicon-menu-hamburger mt-4" style="font-size: 32px;"></i>
             </a>
             <div class="headding">
@@ -111,7 +112,7 @@
         <div>2022 Technological Education Nigeria.<br>Some rights reserved</div>
     </footer>
     <!-- Mobile menu -->
-    <section class="mobile-menu" id="mobile-menu">
+    <section class="mobile-menu hidden" id="mobile-menu">
         <ul class="m-menu">
             <a href="Index.html" class="text-light"><li>Home</li></a>
             <a href="Index.html/#main-program" class="text-light"><li>Program</li></a>
@@ -120,7 +121,7 @@
             <a href="#" class="text-light"><li>News</li></a>
             <a href="#" class="text-light"><li>TEGS Campaign</li></a>
         </ul>
-        <span class="glyphicon glyphicon-remove"></span>
+        <span class="glyphicon glyphicon-remove" id="glyphicon-remove"></span>
     </section>
 
 

@@ -522,6 +522,14 @@ img {
         gap: 12%;
     }
 
+    .see-more {
+        display: none;
+    }
+
+    .see-less {
+        display: none;
+    }
+
     .mobile-menu {
         display: none;
     }
