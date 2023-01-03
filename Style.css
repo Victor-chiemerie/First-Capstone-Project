@@ -326,6 +326,45 @@ img {
     font-weight: 300;
 }
 
+.mobile-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    background-color: var(--grey);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px;
+    width: 100%;
+}
+
+.glyphicon-remove {
+    font-size: 30px;
+    color: white;
+}
+
+.mobile-menu ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 50px;
+}
+
+.mobile-menu li {
+    list-style-type: none;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Lato', sans-serif;
+    font-style: oblique;
+    border-bottom: 1px solid var(--background);
+    width: fit-content;
+}
+
+.mobile-menu li:hover {
+    cursor: pointer;
+    color: var(--primary);
+}
+
 .hidden {
     display: none;
 }
@@ -481,5 +520,9 @@ img {
     .footer {
         padding: 40px;
         gap: 12%;
+    }
+
+    .mobile-menu {
+        display: none;
     }
 }
