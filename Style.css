@@ -292,6 +292,12 @@ img {
     padding: 10px 30px;
 }
 
+.see-more:hover {
+    border: 3px solid var(--primary);
+    width: calc(300px * 0.8);
+    cursor: pointer;
+}
+
 .see-more div{
     font-size: 20px;
     font-weight: 300;
@@ -313,6 +319,12 @@ img {
     border-radius: 12px;
     width: 300px;
     padding: 10px 30px;
+}
+
+.see-less:hover {
+    border: 3px solid var(--primary);
+    width: calc(300px * 0.8);
+    cursor: pointer;
 }
 
 .see-less div{
@@ -463,6 +475,7 @@ img {
         gap: 8px;
         padding-left: 13%;
         padding-right: 13%;
+        margin-bottom: 30px;
     }
 
     .main-program li {
@@ -494,7 +507,7 @@ img {
 
     .see-program {
         display: block;
-        margin: 4.5%;
+        margin: 3.7%;
         font-size: 15px;
     }
 
