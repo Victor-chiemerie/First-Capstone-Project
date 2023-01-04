@@ -509,9 +509,14 @@ img {
   }
 
   .see-program {
-    display: block;
+    display: flex;
+    align-items: center;
     margin: 3.7%;
     font-size: 15px;
+  }
+
+  .see-program u:hover {
+    color: var(--primary);
   }
 
   .speakers > ul {
