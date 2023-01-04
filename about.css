@@ -173,4 +173,26 @@ img {
     margin: 18px 0;
     padding: 0;
   }
+
+  .partners {
+    display: none;
+  }
+
+  .footer {
+    background-color: var(--grey);
+    padding: 40px;
+    gap: 12%;
+  }
+
+  .footer > div i {
+    color: var(--white);
+  }
+
+  .footer > div h2 {
+    color: var(--white);
+  }
+
+  .footer > div {
+    color: var(--white);
+  }
 }
