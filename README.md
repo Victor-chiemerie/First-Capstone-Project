@@ -64,6 +64,11 @@ After you're finished please remove all the comments and instructions!
 
 **[First Capstone Project]** is a... Website built for a Global Summit for Education on Technology
 
+
+https://user-images.githubusercontent.com/109443842/210453718-9445af86-4fd3-4cf3-b0b1-eb781ffcb7a9.mp4
+
+
+
 ## 🛠 Built With <a name="built-with"></a>
 - HTML
 - CSS
@@ -85,9 +90,7 @@ After you're finished please remove all the comments and instructions!
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
-
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
+- [Live Demo Link](https://victor-chiemerie.github.io/First-Capstone-Project/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -193,9 +196,9 @@ If you like this project please do well to follow me up on the shared social med
 
 <!-- ACKNOWLEDGEMENTS -->
 
-## 🙏 Acknowledgments <a name="acknowledgements"></a
+## 🙏 Acknowledgments <a name="acknowledgements">
 
-I would like to thank <a href="https://github.com/anthonymr">Anthony Martin</a> and <a href="https://github.com/UsamaMasood12">Usama</a> for your help while building this project.
+https://www.behance.net/adagio07
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
