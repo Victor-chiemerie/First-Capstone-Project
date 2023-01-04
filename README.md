@@ -196,9 +196,9 @@ If you like this project please do well to follow me up on the shared social med
 
 <!-- ACKNOWLEDGEMENTS -->
 
-## 🙏 Acknowledgments <a name="acknowledgements"></a
+## 🙏 Acknowledgments <a name="acknowledgements">
 
-I would like to thank <a href="https://github.com/anthonymr">Anthony Martin</a> and <a href="https://github.com/UsamaMasood12">Usama</a> for your help while building this project.
+https://www.behance.net/adagio07
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
