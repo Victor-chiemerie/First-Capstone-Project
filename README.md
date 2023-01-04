@@ -39,6 +39,7 @@ After you're finished please remove all the comments and instructions!
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
+  - [Video description of project](#description-of-project)
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
@@ -65,7 +66,9 @@ After you're finished please remove all the comments and instructions!
 **[First Capstone Project]** is a... Website built for a Global Summit for Education on Technology
 
 
-https://user-images.githubusercontent.com/109443842/210453718-9445af86-4fd3-4cf3-b0b1-eb781ffcb7a9.mp4
+## Loom Video Of Project <a name="description-of-project"></a>
+
+https://user-images.githubusercontent.com/109443842/210625977-9c476d7d-1772-4537-8623-ce8bc81e3b2e.mp4
 
 
 
