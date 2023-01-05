@@ -103,14 +103,25 @@ const footer = document.querySelector('#footer');
 const seeDesktop = document.querySelector('#see-program');
 // const speakersList = document.querySelectorAll('#speakers-list');
 
-function toggleSeeMobile() {
-  speakers.classList.toggle('hidden');
-  partners.classList.toggle('hidden');
-  footer.classList.toggle('hidden');
-  seeLess.classList.toggle('hidden');
-  seeMore.classList.toggle('hidden');
+function toggleHideMobile() {
+  speakers.classList.add('hidden');
+  partners.classList.add('hidden');
+  footer.classList.add('hidden');
+  seeLess.classList.add('hidden');
+  seeMore.classList.remove('hidden');
   // speakersList.forEach((list) => {
-  //     list.classList.toggle('hidden');
+  //     list.classList.add('hidden');
+  // });
+}
+
+function toggleSeeMobile() {
+  speakers.classList.remove('hidden');
+  partners.classList.remove('hidden');
+  footer.classList.remove('hidden');
+  seeLess.classList.remove('hidden');
+  seeMore.classList.add('hidden');
+  // speakersList.forEach((list) => {
+  //     list.classList.remove('hidden');
   // });
 }
 
@@ -121,9 +132,9 @@ function toggleSeeDesktop() {
   speakers.classList.remove('hidden');
   partners.classList.remove('hidden');
   footer.classList.remove('hidden');
-  seeDesktop.classList.add('hidden');
+  // seeDesktop.classList.add('hidden');
 }
 
-seeLess.addEventListener('click', toggleSeeMobile);
+seeLess.addEventListener('click', toggleHideMobile);
 seeMore.addEventListener('click', toggleSeeMobile);
 seeDesktop.addEventListener('click', toggleSeeDesktop);
