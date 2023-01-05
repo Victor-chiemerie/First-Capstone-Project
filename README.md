@@ -201,7 +201,7 @@ If you like this project please do well to follow me up on the shared social med
 
 ## 🙏 Acknowledgments <a name="acknowledgements">
 
-https://www.behance.net/adagio07
+[https://www.behance.net/adagio07](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
