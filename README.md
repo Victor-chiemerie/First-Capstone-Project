@@ -39,6 +39,7 @@ After you're finished please remove all the comments and instructions!
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
+  - [Video description of project](#description-of-project)
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
@@ -60,48 +61,31 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 [First Capstone Project] <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
+**[First Capstone Project]** is a... Website built for a Global Summit for Education on Technology
 
-**[your_project__name]** is a...
+
+## Loom Video Of Project <a name="description-of-project"></a>
+
+https://user-images.githubusercontent.com/109443842/210625977-9c476d7d-1772-4537-8623-ce8bc81e3b2e.mp4
+
+
 
 ## 🛠 Built With <a name="built-with"></a>
-
-### Tech Stack <a name="tech-stack"></a>
-
-> Describe the tech stack and include only the relevant sections that apply to your project.
-
-<details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
-  </ul>
-</details>
+- HTML
+- CSS
+- Javascript
+- Bootstrap
 
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
 
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- **[Responsiveness on all screen sizes]**
+- **[Easy interactions and accessibilty by different users]**
+- **[Dynamic and loading on all browsers]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -109,9 +93,7 @@ After you're finished please remove all the comments and instructions!
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
-
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
+- [Live Demo Link](https://victor-chiemerie.github.io/First-Capstone-Project/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -119,14 +101,14 @@ After you're finished please remove all the comments and instructions!
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Describe how a new developer could make use of your project.
-
 To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
 In order to run this project you need:
 
+- A code Editor
+- A web Browser
 <!--
 Example command:
 
@@ -139,56 +121,33 @@ Example command:
 
 Clone this repository to your desired folder:
 
-<!--
 Example commands:
 
 ```sh
   cd my-folder
   git clone git@github.com:myaccount/my-project.git
 ```
---->
 
 ### Install
 
 Install this project with:
 
-<!--
+install npx
+
 Example command:
 
 ```sh
   cd my-project
-  gem install
+  npx install
 ```
---->
-
-### Usage
-
-To run the project, execute the following command:
-
-<!--
-Example command:
-
-```sh
-  rails server
-```
---->
-
-### Run tests
-
-To run tests, run the following command:
-
-<!--
-Example command:
-
-```sh
-  bin/rails test test/models/article_test.rb
-```
---->
 
 ### Deployment
 
 You can deploy this project using:
 
+Github pages
+
+<p>follow <a href="https://www.w3schools.com/git/git_remote_pages.asp?remote=github">these steps</a> for example</p>
 <!--
 Example:
 
@@ -203,19 +162,11 @@ Example:
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
+👤 **Author**
 
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/Victor-chiemerie)
+- Twitter: [@twitterhandle](https://twitter.com/VictorChiemer20)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/victor-chiemerie-460475246/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -223,11 +174,8 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
-
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- [ ] **[I will add the pages to the other menu on the menu list]**
+- [ ] **[Background image of middle pages what have white backgrounds]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -245,19 +193,15 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
-
-If you like this project...
+If you like this project please do well to follow me up on the shared social media platforms, you can also reach out to me if any need arises.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ACKNOWLEDGEMENTS -->
 
-## 🙏 Acknowledgments <a name="acknowledgements"></a>
+## 🙏 Acknowledgments <a name="acknowledgements">
 
-> Give credit to everyone who inspired your codebase.
-
-I would like to thank...
+[https://www.behance.net/adagio07](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
