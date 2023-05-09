@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=InaiMathi&family=Poppins&family=Roboto&family=Inter&display=swap');
+
+$primary-color: #ec5242;
+$black: #272a31;
+$background: #efededdf;
+$grey: rgb(73, 72, 72);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.dom {
+    background-color: $background;
+    background-image: url(images/background.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+li {
+  list-style: none;
+}
+
+header {
+    padding: 10px 5%;
+    
+    span {
+        font-size: 35px;
+        font-weight: 900;
+    }
+
+    div {
+        display: none;
+    }
+}
+
+.home-page {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+    h3 {
+        color: $primary-color;
+        font-size: larger;
+    }
+
+    h1 {
+        color: $primary-color;
+        font-size: xx-large;
+
+        b {
+            font-family: 'Lato', sans-serif;
+            font-weight: 900;
+        }
+    }
+
+    .home-p {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-family: 'Lato', sans-serif;
+        font-weight: 600;
+        font-size: small;
+        border: 3px solid white;
+        padding: 12px;
+    }
+
+    h2 {
+        font-family: 'Lato', sans-serif;
+        font-weight: 900;
+    }
+}
+
+.main-program {
+    background-color: $black;
+    background-image: url(images/cross.svg);
+    background-size: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    padding: 35px 5%;
+
+    div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .orange-line {
+            background-color: $primary-color;
+            width: 40px;
+            height: 1px;
+        }
+    }
+
+    ul {
+        padding: 25px 0;
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+
+        li {
+            background-color: rgba(255, 255, 255, 0.122);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 15px;
+
+            span {
+                font-size: xx-large;
+            }
+
+            h3 {
+                color: $primary-color;
+                font-size: large;
+                width: 100px;
+                margin: 0;
+            }
+
+            p {
+                font-size: small;
+                margin: 0;
+                flex: 1;
+            }
+        }
+    }
+
+    button {
+        background-color: $primary-color;
+        color: white;
+        font-family: 'Lato', sans-serif;
+        font-weight: 700;
+        font-size: medium;
+        border: none;
+        padding: 22px;
+    }
+
+    article {
+        display: none;
+    }
+}
