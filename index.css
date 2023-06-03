@@ -140,7 +140,7 @@ header div {
   align-items: center;
 }
 .speakers ul {
-  padding: 22px 0px;
+  padding: 22px 0px 0px 0px;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -244,7 +244,7 @@ footer :last-child {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 30px 5%;
+  margin: 0px 5% 30px 5%;
   gap: 10px;
   border: 2px solid rgb(184, 182, 182);
   border-radius: 12px;
@@ -264,7 +264,7 @@ footer :last-child {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 30px 5%;
+  margin: 0px 5% 30px 5%;
   gap: 10px;
   border: 2px solid rgb(184, 182, 182);
   border-radius: 12px;
@@ -278,6 +278,47 @@ footer :last-child {
 .see-less:hover {
   border: 3px solid #ec5242;
   cursor: pointer;
+}
+
+.mobile-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  background-color: rgb(73, 72, 72);
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 20px;
+  width: 100%;
+}
+.mobile-menu ul {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-top: 50px;
+}
+.mobile-menu ul li {
+  list-style-type: none;
+  border-bottom: 1px solid rgba(239, 237, 237, 0.8745098039);
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.mobile-menu ul li a {
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: 600;
+  font-family: "Lato", sans-serif;
+  font-style: oblique;
+}
+.mobile-menu ul li:hover {
+  cursor: pointer;
+  border: 1px solid #ec5242;
+}
+.mobile-menu span {
+  font-size: 50px;
+  font-weight: 900;
+  color: white;
 }
 
 .hidden {

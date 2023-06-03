@@ -1,3 +1,5 @@
+import modalMenu from './bundle/modalMenu.js';
+
 const presenters = [
   {
     id: 1,
@@ -56,6 +58,7 @@ speakers.appendChild(FeaturedSpeaker);
 speakers.appendChild(ulList);
 
 const presentation = document.querySelector('#speakers ul');
+let count = 0;
 
 presenters.forEach((presenter) => {
   const list = document.createElement('li');
@@ -71,5 +74,41 @@ presenters.forEach((presenter) => {
               <p>${presenter.profession}</p>
           </div>
       `;
+  count += 1;
+  if (count > 2) {
+    list.classList.add('speakers-list');
+    list.style.display = 'none';
+  }
   presentation.appendChild(list);
 });
+
+modalMenu();
+
+const seeLess = document.getElementById('see-less');
+const seeMore = document.getElementById('see-more');
+const partners = document.getElementById('partners');
+const footer = document.getElementById('footer');
+const speakersList = document.querySelectorAll('.speakers-list');
+
+const seeLessMobile = () => {
+  partners.classList.add('hidden');
+  footer.classList.add('hidden');
+  seeLess.classList.add('hidden');
+  seeMore.classList.remove('hidden');
+  speakersList.forEach((list) => {
+    list.style.display = 'none';
+  });
+};
+
+const seeMoreMobile = () => {
+  partners.classList.remove('hidden');
+  footer.classList.remove('hidden');
+  seeLess.classList.remove('hidden');
+  seeMore.classList.add('hidden');
+  speakersList.forEach((list) => {
+    list.style.display = 'flex';
+  });
+};
+
+seeLess.addEventListener('click', seeLessMobile);
+seeMore.addEventListener('click', seeMoreMobile);
